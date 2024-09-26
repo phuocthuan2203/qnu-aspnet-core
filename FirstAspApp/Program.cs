@@ -14,11 +14,20 @@ app.Run(async (HttpContext context) => {
     // await context.Response.WriteAsync("<h2>World</h2>");
 
     // how to get the information of the request
-    var path = context.Request.Path;
-    var method = context.Request.Method;
-    context.Response.Headers["Content-Type"] = "text/html";
-    await context.Response.WriteAsync($"<p>Path: {path}</p>");
-    await context.Response.WriteAsync($"<p>Method: {method}</p>");
+    // var path = context.Request.Path;
+    // var method = context.Request.Method;
+    // context.Response.Headers["Content-Type"] = "text/html";
+    // await context.Response.WriteAsync($"<p>Path: {path}</p>");
+    // await context.Response.WriteAsync($"<p>Method: {method}</p>");
+
+    // how to get the values of the query string
+    context.Response.Headers["Content-Type"] = "text/plain";
+    if(context.Request.Method == "GET") {
+        if(context.Request.Query.ContainsKey("name")) {
+            var name = context.Request.Query["name"];
+            await context.Response.WriteAsync($"Hello, {name}!");
+        }
+    }
 });
 
 app.Run();
