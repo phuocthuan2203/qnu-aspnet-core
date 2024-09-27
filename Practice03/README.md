@@ -1,5 +1,10 @@
 # Practice03 - ASP.NET Core MVC Movie App
 
+## Resources
+https://learn.microsoft.com/vi-vn/aspnet/core/tutorials/first-mvc-app/adding-model?view=aspnetcore-8.0&tabs=visual-studio-code
+
+https://learn.microsoft.com/vi-vn/aspnet/core/tutorials/first-mvc-app/working-with-sql?view=aspnetcore-8.0&tabs=visual-studio-code
+
 ## Project Overview
 
 Practice03 is an ASP.NET Core MVC application that demonstrates the basics of building a web app for managing a movie database. This project is likely part of a learning exercise or tutorial for ASP.NET Core development.
