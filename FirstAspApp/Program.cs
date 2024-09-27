@@ -30,11 +30,16 @@ app.Run(async (HttpContext context) => {
     // }
 
     // get the headers information from request
-    if(context.Request.Headers.ContainsKey("User-Agent")) {
-        var userAgent = context.Request.Headers["User-Agent"];
-        context.Response.Headers["Content-Type"] = "text/plain";
-        await context.Response.WriteAsync($"User-Agent: {userAgent}");
-    }
+    // if(context.Request.Headers.ContainsKey("User-Agent")) {
+    //     var userAgent = context.Request.Headers["User-Agent"];
+    //     context.Response.Headers["Content-Type"] = "text/plain";
+    //     await context.Response.WriteAsync($"User-Agent: {userAgent}");
+    // }
+
+    // get the key-pair values from the request header by using postman
+    System.IO.StreamReader reader = new System.IO.StreamReader(context.Request.Body);
+    var body = await reader.ReadToEndAsync();
+    
 });
 
 app.Run();
