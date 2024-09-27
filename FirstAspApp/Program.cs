@@ -21,12 +21,19 @@ app.Run(async (HttpContext context) => {
     // await context.Response.WriteAsync($"<p>Method: {method}</p>");
 
     // how to get the values of the query string
-    context.Response.Headers["Content-Type"] = "text/plain";
-    if(context.Request.Method == "GET") {
-        if(context.Request.Query.ContainsKey("name")) {
-            var name = context.Request.Query["name"];
-            await context.Response.WriteAsync($"Hello, {name}!");
-        }
+    // context.Response.Headers["Content-Type"] = "text/plain";
+    // if(context.Request.Method == "GET") {
+    //     if(context.Request.Query.ContainsKey("name")) {
+    //         var name = context.Request.Query["name"];
+    //         await context.Response.WriteAsync($"Hello, {name}!");
+    //     }
+    // }
+
+    // get the headers information from request
+    if(context.Request.Headers.ContainsKey("User-Agent")) {
+        var userAgent = context.Request.Headers["User-Agent"];
+        context.Response.Headers["Content-Type"] = "text/plain";
+        await context.Response.WriteAsync($"User-Agent: {userAgent}");
     }
 });
 
