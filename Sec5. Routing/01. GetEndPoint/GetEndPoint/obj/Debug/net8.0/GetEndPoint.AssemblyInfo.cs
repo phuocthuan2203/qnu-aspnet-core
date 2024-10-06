@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GetEndPoint")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+539ec81ccd34c15b0f209b163d103f6e37e5e634")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bbbbc14d9de182dafb3ef2776d74469840a07b8d")]
 [assembly: System.Reflection.AssemblyProductAttribute("GetEndPoint")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GetEndPoint")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
