@@ -7,12 +7,12 @@ builder.Services.AddTransient<MyCustomMiddleware>();
 var app = builder.Build();
 
 // middleware 1
-app.Use(async (context, next) => {
-    await context.Response.WriteAsync("Middleware 1!\n");
-    await next(context);
+// app.Use(async (context, next) => {
+//     await context.Response.WriteAsync("Middleware 1!\n");
+//     await next(context);
     
-    // await context.Response.WriteAsync("Middleware 1 finished!\n");
-});
+//     // await context.Response.WriteAsync("Middleware 1 finished!\n");
+// });
 
 // middleware 2
 // app.Use(async (context, next) => {
@@ -23,13 +23,27 @@ app.Use(async (context, next) => {
 // });
 // app.UseMiddleware<MyCustomMiddleware>();
 // app.UseMyCustomMiddleware();
-app.UseHelloCustomMiddleware();
+// app.UseHelloCustomMiddleware();
 
 // middleware 3
-app.Run(async (context) => {
-    await context.Response.WriteAsync("Middleware 3!\n");
+// app.Run(async (context) => {
+//     await context.Response.WriteAsync("Middleware 3!\n");
     
-    // await context.Response.WriteAsync("Middleware 3 finished!\n");
+//     // await context.Response.WriteAsync("Middleware 3 finished!\n");
+// });
+
+app.UseWhen(
+    context => context.Request.Query.ContainsKey("username"),
+    app => {
+        app.Use(async (context, next) => {
+            await context.Response.WriteAsync("Hello username!\n");
+            await next(context);
+        });
+    }
+);
+
+app.Run(async context => {
+    await context.Response.WriteAsync("Hello from middleware at main chain");
 });
 
 app.Run();
