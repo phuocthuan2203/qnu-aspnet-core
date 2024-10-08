@@ -1,33 +1,20 @@
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-app.Use(async (context, next) => {
-    Endpoint? endpoint = context.GetEndpoint();
-    if(endpoint is not null) {
-        await context.Response.WriteAsync($"Endpoint: {endpoint.DisplayName}");
-    }
-    await next(context);
-});
-
 // enable routing
 app.UseRouting();
 
-app.Use(async (context, next) => {
-    Endpoint? endpoint = context.GetEndpoint();
-    if(endpoint is not null) {
-        await context.Response.WriteAsync($"Endpoint: {endpoint.DisplayName}");
-    }
-    await next(context);
-});
-
 // define endpoints
 app.UseEndpoints(endpoints => {
-    endpoints.MapGet("map1", async (context) => {
-        await context.Response.WriteAsync("Hello from map1");
+    endpoints.Map("/files/{FileName}.{Extension}", async context => {
+        string? filename = context.Request.RouteValues["filename"] as string;
+        string? extension = context.Request.RouteValues["extension"] as string;
+        await context.Response.WriteAsync($"In file {filename} - {extension}");
     });
 
-     endpoints.MapPost("map2", async (context) => {
-        await context.Response.WriteAsync("Hello from map2");
+    endpoints.Map("employee/profile/{name=thuan}", async context => {
+        string? name = context.Request.RouteValues["name"] as string;
+        await context.Response.WriteAsync($"Name: {name}");
     });
 });
 
