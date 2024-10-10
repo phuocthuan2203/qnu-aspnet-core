@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WWWRootAndStaticFiles")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da30356f2d250e2e90fd6ac0796684505fc322d9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebbd89fd44c2a1ead21f4ce72b853d9ec11f8f2e")]
 [assembly: System.Reflection.AssemblyProductAttribute("WWWRootAndStaticFiles")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WWWRootAndStaticFiles")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

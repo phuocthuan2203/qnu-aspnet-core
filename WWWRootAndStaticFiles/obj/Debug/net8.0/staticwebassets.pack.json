@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/WWWRootAndStaticFiles/wwwroot/Sample.txt",
+      "PackagePath": "staticwebassets/Sample.txt"
+    },
+    {
+      "Id": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/WWWRootAndStaticFiles/wwwroot/docs.pdf",
+      "PackagePath": "staticwebassets/docs.pdf"
+    },
+    {
+      "Id": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/WWWRootAndStaticFiles/wwwroot/img1.jpg",
+      "PackagePath": "staticwebassets/img1.jpg"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.WWWRootAndStaticFiles.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.WWWRootAndStaticFiles.props",
+      "PackagePath": "build\\WWWRootAndStaticFiles.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WWWRootAndStaticFiles.props",
+      "PackagePath": "buildMultiTargeting\\WWWRootAndStaticFiles.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WWWRootAndStaticFiles.props",
+      "PackagePath": "buildTransitive\\WWWRootAndStaticFiles.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

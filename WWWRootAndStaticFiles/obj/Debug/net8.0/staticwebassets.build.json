@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "OvnQcTIfz3Wha3molGGXPtDxofgDEQ6UdS/FDwUYAx0=",
+  "Source": "WWWRootAndStaticFiles",
+  "BasePath": "_content/WWWRootAndStaticFiles",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WWWRootAndStaticFiles/wwwroot",
+      "Source": "WWWRootAndStaticFiles",
+      "ContentRoot": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/WWWRootAndStaticFiles/wwwroot/",
+      "BasePath": "_content/WWWRootAndStaticFiles",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
