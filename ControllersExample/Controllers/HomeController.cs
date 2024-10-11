@@ -2,11 +2,16 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace ControllersExample.Controllers
 {
-    public class HomeController
+    public class HomeController : Controller    
     {
         [Route("home")]
-        public string Index() {
-            return "hello world from Index";
+        public ContentResult Index() {
+            // return new ContentResult() {
+            //     Content = "Hello from Index",
+            //     ContentType = "text/plain"
+            // };
+            // return Content("Hello from Index", "text/plain");
+            return Content("<h1>Welcome</h1> <h2>Nguyen Phuoc Thuan</h2>", "text/html");
         }
 
         [Route("about")]
