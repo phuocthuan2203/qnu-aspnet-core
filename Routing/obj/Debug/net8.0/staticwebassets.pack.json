@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/Routing/wwwroot/Sample.txt",
+      "PackagePath": "staticwebassets/Sample.txt"
+    },
+    {
+      "Id": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/Routing/wwwroot/docs.pdf",
+      "PackagePath": "staticwebassets/docs.pdf"
+    },
+    {
+      "Id": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/Routing/wwwroot/img1.jpg",
+      "PackagePath": "staticwebassets/img1.jpg"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Routing.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.Routing.props",
+      "PackagePath": "build\\Routing.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Routing.props",
+      "PackagePath": "buildMultiTargeting\\Routing.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Routing.props",
+      "PackagePath": "buildTransitive\\Routing.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

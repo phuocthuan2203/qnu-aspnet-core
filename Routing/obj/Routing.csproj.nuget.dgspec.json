@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/Routing/Routing.csproj": {}
+    "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_AspNetCore/Practices/Routing/Routing.csproj": {}
   },
   "projects": {
-    "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/Routing/Routing.csproj": {
+    "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_AspNetCore/Practices/Routing/Routing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/Routing/Routing.csproj",
+        "projectUniqueName": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_AspNetCore/Practices/Routing/Routing.csproj",
         "projectName": "Routing",
-        "projectPath": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/Routing/Routing.csproj",
+        "projectPath": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_AspNetCore/Practices/Routing/Routing.csproj",
         "packagesPath": "/Users/thuannguyenphuoc/.nuget/packages/",
-        "outputPath": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/Routing/obj/",
+        "outputPath": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_AspNetCore/Practices/Routing/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/thuannguyenphuoc/.nuget/NuGet/NuGet.Config"

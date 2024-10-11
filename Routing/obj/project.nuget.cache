@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ay3yUUg3r1BAbHU+Pimgl6jt+vJ7SUVnMl4tOHBy3jeN1u+Sj5N2vsSklnWsGJQZdd4e40sGhBUZNeU8qto1IA==",
+  "dgSpecHash": "Jzdfb0OExjEcucS64KitZ+O7iFsJGU7fIBFhiEOe1FKEMyhOSiE9V+plvy8Y1gkvmpoz5G/Q3o09xsGxmftc+A==",
   "success": true,
-  "projectFilePath": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/Routing/Routing.csproj",
+  "projectFilePath": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_AspNetCore/Practices/Routing/Routing.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

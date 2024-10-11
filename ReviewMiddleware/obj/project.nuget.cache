@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ulELBZ0n0TYDcXB0vbVsrOSN0271nN/Updcyz0ZyQXskHXf9hqG5GgyvXzZ1kH0q5EsLHVhrV8mlTUPgPrwTdQ==",
+  "dgSpecHash": "9psSIi/O2Zd20lqTaVZmW+nDKsIuXLqT5HFB22mMDpK+nEWpCSv93gqo/fidFWAH4CpgIl5EZ3KGvDwoAzor+A==",
   "success": true,
-  "projectFilePath": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/ReviewMiddleware/ReviewMiddleware.csproj",
+  "projectFilePath": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_AspNetCore/Practices/ReviewMiddleware/ReviewMiddleware.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

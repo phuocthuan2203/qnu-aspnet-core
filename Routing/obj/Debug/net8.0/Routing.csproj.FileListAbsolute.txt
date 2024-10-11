@@ -24,3 +24,4 @@
 /Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/Routing/obj/Debug/net8.0/Routing.pdb
 /Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/Routing/obj/Debug/net8.0/Routing.genruntimeconfig.cache
 /Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/Routing/obj/Debug/net8.0/ref/Routing.dll
+/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/Routing/bin/Debug/net8.0/Routing.staticwebassets.runtime.json

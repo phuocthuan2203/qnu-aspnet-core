@@ -1,11 +1,77 @@
 {
   "Version": 1,
-  "Hash": "7+V0qGPWApTsvuZK7tbP+lGxsZeaz0c0xXskoCgSSUc=",
+  "Hash": "eaZG1xo5cTVlzRUe16Tz0iYoXLQtkGDPGaMY3XHLnNQ=",
   "Source": "Routing",
   "BasePath": "_content/Routing",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Routing/wwwroot",
+      "Source": "Routing",
+      "ContentRoot": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/Routing/wwwroot/",
+      "BasePath": "_content/Routing",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/Routing/wwwroot/docs.pdf",
+      "SourceId": "Routing",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/Routing/wwwroot/",
+      "BasePath": "_content/Routing",
+      "RelativePath": "docs.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/docs.pdf"
+    },
+    {
+      "Identity": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/Routing/wwwroot/img1.jpg",
+      "SourceId": "Routing",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/Routing/wwwroot/",
+      "BasePath": "_content/Routing",
+      "RelativePath": "img1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img1.jpg"
+    },
+    {
+      "Identity": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/Routing/wwwroot/Sample.txt",
+      "SourceId": "Routing",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_ASPdotNET/Practices/Routing/wwwroot/",
+      "BasePath": "_content/Routing",
+      "RelativePath": "Sample.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Sample.txt"
+    }
+  ]
 }
