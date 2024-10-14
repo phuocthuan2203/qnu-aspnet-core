@@ -6,6 +6,7 @@ namespace ControllersExample.Controllers
     public class HomeController : Controller    
     {
         [Route("home")]
+        [Route("/")]
         public ContentResult Index() {
             // return new ContentResult() {
             //     Content = "Hello from Index",
@@ -26,6 +27,22 @@ namespace ControllersExample.Controllers
             // return new JsonResult(person);
             return Json(person);
         } 
+
+        [Route("file-download")]
+        public VirtualFileResult FileDownload() {
+            return new VirtualFileResult("/232105020001-KTPM.pdf", "application/pdf");
+        }
+
+        [Route("file-download2")]
+        public PhysicalFileResult FileDownload2() {
+            return new PhysicalFileResult("/Users/thuannguyenphuoc/Downloads/docs.pdf", "application/pdf");
+        }
+
+        [Route("file-download3")]
+        public IActionResult FileDownload3() {
+            byte[] bytes = System.IO.File.ReadAllBytes(@"/Users/thuannguyenphuoc/Downloads/docs.pdf");
+            return File(bytes, "application/pdf");
+        }
 
         [Route("about")]
         public string About() {

@@ -4,6 +4,8 @@ builder.Services.AddControllers(); // register MVC controller services with the 
 
 var app = builder.Build(); // compile services and configurations into a web application instance -> the app is ready to handle requests
 
+app.UseStaticFiles();
+app.UseRouting();
 app.MapControllers(); // setup the routing for app, scan the registered controllers and map their action methods to the appropriate routes based on the attributes defined in the controllers
 
 app.Run();

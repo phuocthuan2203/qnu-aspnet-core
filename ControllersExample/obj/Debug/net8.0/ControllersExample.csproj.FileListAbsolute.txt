@@ -24,3 +24,4 @@
 /Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_AspNetCore/qnu-aspnet-core/ControllersExample/obj/Debug/net8.0/ControllersExample.pdb
 /Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_AspNetCore/qnu-aspnet-core/ControllersExample/obj/Debug/net8.0/ControllersExample.genruntimeconfig.cache
 /Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_AspNetCore/qnu-aspnet-core/ControllersExample/obj/Debug/net8.0/ref/ControllersExample.dll
+/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_AspNetCore/qnu-aspnet-core/ControllersExample/bin/Debug/net8.0/ControllersExample.staticwebassets.runtime.json

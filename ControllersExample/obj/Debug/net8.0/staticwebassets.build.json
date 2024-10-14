@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "nJr+0Dau8qncgColkVxZTeNLsuQBFN3zihOzO2IwmRU=",
+  "Hash": "epTR/mQfjwKgeFfKUU8KAi9FeSB6YyQ12VKd9912+XU=",
   "Source": "ControllersExample",
   "BasePath": "_content/ControllersExample",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ControllersExample/wwwroot",
+      "Source": "ControllersExample",
+      "ContentRoot": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_AspNetCore/qnu-aspnet-core/ControllersExample/wwwroot/",
+      "BasePath": "_content/ControllersExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_AspNetCore/qnu-aspnet-core/ControllersExample/wwwroot/232105020001-KTPM.pdf",
+      "SourceId": "ControllersExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_AspNetCore/qnu-aspnet-core/ControllersExample/wwwroot/",
+      "BasePath": "_content/ControllersExample",
+      "RelativePath": "232105020001-KTPM.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/232105020001-KTPM.pdf"
+    }
+  ]
 }
