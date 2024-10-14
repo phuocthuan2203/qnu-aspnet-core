@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/thuannguyenphuoc/Library/CloudStorage/OneDrive-Personal/Document/08_AspNetCore/qnu-aspnet-core/ControllersExample_IActionResult/wwwroot/232105020001-KTPM.pdf",
+      "PackagePath": "staticwebassets/232105020001-KTPM.pdf"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.ControllersExample_IActionResult.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.ControllersExample_IActionResult.props",
+      "PackagePath": "build\\ControllersExample_IActionResult.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ControllersExample_IActionResult.props",
+      "PackagePath": "buildMultiTargeting\\ControllersExample_IActionResult.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ControllersExample_IActionResult.props",
+      "PackagePath": "buildTransitive\\ControllersExample_IActionResult.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

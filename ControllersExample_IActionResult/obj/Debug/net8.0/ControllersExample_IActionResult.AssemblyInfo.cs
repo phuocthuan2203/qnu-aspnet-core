@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ControllersExample_IActionResult")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+839f91f207d472595e339a79122aa24bb0881824")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+906fab34d56c299c5c2060ab2347037a1ed94ef8")]
 [assembly: System.Reflection.AssemblyProductAttribute("ControllersExample_IActionResult")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ControllersExample_IActionResult")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
