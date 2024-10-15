@@ -6,7 +6,7 @@ namespace ModelBinding.Controllers
     public class HomeController : Controller
     {
         [Route("bookstore/{bookid?}/{isloggedin?}")]
-        public IActionResult Index([FromQuery]int? bookid,[FromQuery] bool? isloggedin)
+        public IActionResult Index([FromRoute]int? bookid,[FromRoute] bool? isloggedin, Book book)
         {
             //Book id should be applied
             if (bookid is null)
@@ -38,9 +38,9 @@ namespace ModelBinding.Controllers
                 return StatusCode(401);
             }
 
-            return Content($"Book id: {bookid}", "text/plain");
+            return Content($"Book id: {bookid}, Book = {book}", "text/plain");
         }
     
-        
+
     }
 }
