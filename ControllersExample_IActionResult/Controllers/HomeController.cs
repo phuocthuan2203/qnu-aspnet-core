@@ -41,7 +41,7 @@ namespace ControllersExample_IActionResult.Controllers
             // return RedirectToAction("Book", "Store", new { id = 1}); // shorthand for 302
 
             // return new RedirectToActionResult("Book", "Store", new {}, true); // 301 - Moved permanently
-            // return RedirectToActionPermanent("Book", "Store", new {id = bookId}); // shorthand for 301
+            return RedirectToActionPermanent("Book", "Store", new {id = bookId}); // shorthand for 301
         }
     }
 }
